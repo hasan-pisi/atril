@@ -19,7 +19,7 @@
 # Gurbuzguven <6mehmet6@gmail.com>, 2021
 # Hüseyin Güç <huseyinguc@outlook.com>, 2022
 # Sabri Ünal <libreajans@gmail.com>, 2022
-# 
+# Hasan YILDIZ <hasanyildiz0@yaani.com>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: atril 1.26.0\n"
@@ -168,7 +168,7 @@ msgstr "%s: sayfa %d erim dışı\n"
 #: backend/dvi/mdvi-lib/dviread.c:1030
 #, c-format
 msgid "%s: bad offset at page %d\n"
-msgstr ""
+msgstr "%s: %d sayfasında hatalı ofset\n"
 
 #: backend/dvi/mdvi-lib/dviread.c:1093
 msgid "stack not empty at end of page\n"
@@ -512,7 +512,7 @@ msgstr "0 üyeyi çağırmaya çalıştı\n"
 #: backend/dvi/mdvi-lib/util.c:238
 #, c-format
 msgid "attempted to callocate %u members with size 0\n"
-msgstr ""
+msgstr "0 boyutuna sahip %u üye çağrılmaya çalışıldı\n"
 
 #: backend/dvi/mdvi-lib/util.c:242
 #, c-format
